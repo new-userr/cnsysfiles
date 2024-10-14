@@ -1,0 +1,57 @@
+Commands and Their Uses
+
+ping: Tests connectivity between hosts
+
+Example: ping 192.168.1.1
+
+
+ipconfig / ifconfig: Displays network configuration information
+
+Windows: ipconfig
+Linux/Mac: ifconfig or ip addr
+
+
+hostname: Displays or sets the host name
+
+Example: hostname
+
+
+whois: Retrieves domain registration information
+
+Example: whois example.com
+
+
+netstat: Displays network connections and statistics
+
+Example: netstat -an
+
+
+route: Displays or modifies the routing table
+
+Example: route print (Windows) or route -n (Linux)
+
+
+tracert / traceroute / tracepath: Traces the route packets take to a destination
+
+Windows: tracert example.com
+Linux/Mac: traceroute example.com or tracepath example.com
+
+
+nslookup: Queries DNS servers for domain name or IP address mapping
+
+Example: nslookup example.com
+
+
+arp: Displays or modifies the ARP cache
+
+Example: arp -a
+
+
+finger: Retrieves information about users on a remote system (not commonly used now)
+
+Example: finger username@host
+
+
+nmap: Scans networks and systems for open ports and services
+
+Example: nmap 192.168.1.1
